@@ -2,6 +2,7 @@ import Home from 'containers/Home'
 import About from 'containers/About'
 import Me from 'containers/About/components/Me'
 import Company from 'containers/About/components/Company'
+import NotFound from 'containers/NotFound'
 
 
 const routes = [
@@ -21,6 +22,9 @@ const routes = [
 				component: Company
 			}
 		]
+	},{
+		path: '*',
+		component: NotFound
 	}
 ]
 
