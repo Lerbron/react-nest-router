@@ -1,0 +1,22 @@
+@import './reset.scss';
+
+body{
+  // background: burlywood;
+  font-size: 12px;
+}
+
+.route-container{
+  min-height: 100vh;
+  display: flex;
+  width: 100vw;
+
+  .side-bar{
+    width: 120px;
+    background: #fbfbfb;
+  }
+
+  .core-layout{
+    flex: 1;
+  }
+
+}
